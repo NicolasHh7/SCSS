@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* =========================
+   Scrollbar (WebKit)
+   Chrome, Edge, Safari
+========================= */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff6b6b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4ecdc4;
+}
+
+.topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #ff6b6b;
+}
+
+.topbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.topbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.topbar__menu a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.topbar__menu a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+      grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+main .content .product {
+  background-color: #ff6b6b;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 3px 2px #ffbcbc;
+          box-shadow: 0px 0px 3px 2px #ffbcbc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .content .product .oi-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  color: #ffffff;
+}
+
+main .content .product button {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #2e2e2e;
+  cursor: pointer;
+}
+
+main aside {
+  background-color: #2e2e2e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  padding: 20px;
+  gap: 40px;
+}
+
+main aside ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+main aside a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #ff6b6b;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+/*# sourceMappingURL=completo.css.map */
